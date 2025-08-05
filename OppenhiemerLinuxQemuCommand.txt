@@ -1,0 +1,6 @@
+qemu-system-x86_64 \
+-kernel /home/usr/Desktop/OppenhiemerLinux/vmlinuz-oppenhiemerlinux \
+-initrd /home/usr/Desktop/OppenhiemerLinux/initramfs-busybox.gz \
+-drive file=/home/usr/Desktop/OppenhiemerLinux/rootfs.img,format=raw,if=virtio \
+-append "root=/dev/vda rw console=ttyS0" \
+-nographic
